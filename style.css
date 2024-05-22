@@ -2,7 +2,7 @@
     font-size: 40px;
 }
 .t , .tsang, .tchieu, .tthu{
-    background-color: aqua;
+    background-color: beige;
     border: 1px solid gray;
     height: 50px;
     width: 90px;
@@ -15,7 +15,7 @@
 body {
     display: flex;
     flex-direction: column;
-  
+    align-items: center;
 }
 .sang , .chieu{
     display: flex;
@@ -27,5 +27,24 @@ body {
 }
 .thu > .t{
     font-size: 20px;
+}
+@media (max-width : 800px) {
+    div {
+        min-height: 70px;
+    }
+    .nav{
+        padding-top: 1400px;
+        font-size: 20px;
+        position: absolute;
+    }
+    body{
+        flex-direction: row;
+    }
+    .thu{
+        flex-direction: column;
+    }
+    .sang , .chieu{
+        flex-direction: column;
+    }
 }
 
