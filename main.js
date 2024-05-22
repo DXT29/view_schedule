@@ -23,17 +23,17 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         {
             week: 25,
-            theory: { morning: ['t4', 't5'], afternoon: ['t6'] },
+            theory: { morning: [], afternoon: [] },
             practice: { morning: ['t4', 't5', 't6'], afternoon: ['t7'] }
         },
         {
             week: 26,
-            theory: { morning: ['t4', 't5'], afternoon: ['t6'] },
+            theory: { morning: [], afternoon: [] },
             practice: { morning: ['t4', 't5', 't6', 't7'], afternoon: [] }
         },
         {
             week: 27,
-            theory: { morning: ['t4', 't5'], afternoon: ['t6'] },
+            theory: { morning: [], afternoon: [] },
             practice: { morning: ['t2', 't3', 't4', 't5', 't6'], afternoon: ['t2', 't3', 't4', 't5', 't6'] }
         },
         {
