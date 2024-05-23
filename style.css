@@ -1,58 +1,120 @@
-.nav{
+.nav {
     font-size: 40px;
 }
-.t , .tsang, .tchieu, .tthu{
+
+.t,
+.tsang,
+.tchieu,
+.tthu {
     background-color: beige;
     border: 1px solid gray;
     height: 50px;
     width: 90px;
     font-size: 20px;
 }
- div { 
+
+div {
     height: 50px;
     padding: 7px;
- }
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.sang , .chieu{
+
+.sang,
+.chieu {
     display: flex;
     flex-direction: row;
 }
-.thu{
+
+.thu {
     display: flex;
     flex-direction: row;
 }
-.thu > .t{
+
+.thu>.t {
     font-size: 20px;
 }
+
+.prev-week {
+    cursor: pointer;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 80px;
+    height: 20px;
+    background-color: bisque;
+    font-size: 10px;
+}
+button{
+    height: 40px;
+    margin-left: 20px;
+    min-width: 70px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
 @media (max-width : 800px) {
-    *{
+    button{
+        margin-left: 20px;
+        min-width: 70px;
+        background-color: bisque;
+        border-radius: 20px;
+    }
+
+    .week-navigation {
+        margin-left: 20px;
+        margin-top: 1450px;
+        position: absolute;
+        display: flex;
+
+    }
+
+    .next-week {
+      
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    .prev-week {
+    
+        border-radius: 20px;
+        margin: 10px;
+    }
+
+    * {
         margin: 0;
         padding: 0;
     }
+
     div {
-        
+
         min-height: 70px;
     }
-    .thu > div{
+
+    .thu>div {
         max-width: 60px;
     }
-    .nav{
+
+    .nav {
         padding-top: 1400px;
         font-size: 20px;
         position: absolute;
     }
-    body{
+
+    body {
         flex-direction: row;
     }
-    .thu{
+
+    .thu {
         flex-direction: column;
     }
-    .sang , .chieu{
+
+    .sang,
+    .chieu {
         flex-direction: column;
     }
 }
-
